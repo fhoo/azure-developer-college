@@ -32,7 +32,7 @@ Database Properties:
 - SKU: Basic
 - Location: *West Europe*
 - Create a new server in *West Europe*
-- Networking Tab: make sure **Allow Azure services and resources to access this server** is set to **true*
+- Networking Tab: make sure **Allow Azure services and resources to access this server** is set to **true**.
 
 Leave all other settings as proposed by Azure.
 
@@ -296,7 +296,7 @@ When finished, apply these settings to the App Configuration settings:
 
 ![portal_bo_add_searchindexer](./img/portal_bo_add_searchindexer.png "portal_bo_add_searchindexer")
 
-**Last but not least**, deploy the Contacts Search (folder *day3/apps/dotnetcore/Scm.Search/Adc.Scm.Search.Api*) service from VS Code the the newly created Web App. Again, there is a predefined task to publish to a local folder (**day3publishScmSearch**)
+**Last but not least**, deploy the Contacts Search indexer function (folder *day3/apps/dotnetcore/Scm.Search/Adc.Scm.Search.Indexer*) service from VS Code the the newly created Function App. 
 
 ## Let's press "Pause" for a moment - What have we done so far? ##
 
